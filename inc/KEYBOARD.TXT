@@ -1,0 +1,30 @@
+
+//
+// All right reserved...
+// Using this library/object = credits for me (warlock)...
+//
+
+Obsluga przerwania klawiatury
+
+תתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתת
+: DOSTEPNE FUNKCJE :
+תתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתת
+
+KEY_INSTALL	- instalacja handleraka klawiatury (musi byc gdy chcemy
+		  uzywac innych procedur biblioteki KEYBOARD.ASM)
+KEY_DEINSTALL	- co to robi ???
+KEY_HIT 	- sprawdza czy zostal nacisniety jakikolwiek klawisz
+KEY_SET_SINGLE	- ustawia dany klawisz jako domyslno-pojedynczy, tzn. bez
+		  wielokrotnego wykonania przy jego nacisnieciu (wykonuje
+		  sie 1 raz bez wzgladu czy go dalej trzymamy) - konieczne
+		  jest tutaj wykonanie funkcji key_single_is
+KEY_SINGLE_IS	- gdy isnieja jakies "pojedyncze" klawisze to funkcja jest
+		  wymagana
+KEY_CHECK	- sprawdza czy nacisniety jest dany klawisz, gdy jest
+		  to zwraca 1, gdy brak to 0
+KEY_WAIT	- czeka na nacisniecie jakiegokolwiek klawisza
+
+תתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתת
+
+coded by warlock/amnesty (tomash bednarz)
+

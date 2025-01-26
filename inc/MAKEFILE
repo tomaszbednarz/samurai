@@ -1,0 +1,4 @@
+jaki_plik = lib\samurai
+objects   = no_87.obj vesa.obj always.obj vga.obj file.obj wfpu.obj keyboard.obj timer.obj mouse.obj sstring.obj sysop.obj
+
+!include d:\wc\binw\makelib.mak
